@@ -6,7 +6,38 @@
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-//定义一个组件 名称为 data-item
-Vue.comm
+<div id="data-v7">
+    <ol>
+        <!--
+     现在我们为每个 data-item 提供 data 对象
+     data 对象是变量，即其内容可以是动态的。
+     我们也需要为每个组件提供一个“key”，稍后再
+     作详细解释。
+   -->
+        <data-item
+                v-for="item in dataList"
+                v-bind:data="item"
+                v-bind:key="item.id"
+        ></data-item>
+    </ol>
+</div>
+<script>
+    //定义一个组件 名称为 data-item
+    Vue.component('data-item', {
+        props: ['data'],
+        template: '<li>{{data.text}}</li>'
+    })
+    var app = new Vue({
+        el: "#data-v7",
+        data: {
+            dataList: [
+                {id: 0, text: "蔬菜"},
+                {id: 1, text: "青菜"},
+                {id: 2, text: "白菜"},
+                {id: 3, text: "苹果"}
+            ]
+        }
+    })
+</script>
 </body>
 </html>

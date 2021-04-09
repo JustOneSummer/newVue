@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="v3">
+    <p v-if="dataValue">你好呀</p>
+</div>
+<script>
+    var app = new Vue({
+        el: "#v3",
+        data: {
+            dataValue: true
+        }
+    })
+</script>
+</body>
+</html>

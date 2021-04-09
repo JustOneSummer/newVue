@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="v-for">
+    <ol>
+        <li v-for="temp in lop">
+            {{temp.txt}}
+        </li>
+    </ol>
+</div>
+<script>
+    var app = new Vue({
+        el: "#v-for",
+        data: {
+            lop: [
+                {txt: "文本1"},
+                {txt: "文本2"},
+                {txt: "文本3"}
+            ]
+        }
+    })
+</script>
+</body>
+</html>

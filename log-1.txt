@@ -1,0 +1,208 @@
+2021-05-02 23:29:20 I/Bot 2771589125: Loaded account secrets from local cache.
+2021-05-02 23:29:21.066  INFO 21860 --- [         task-1] l.l.m.web.service.bot.BotService         : bot 启动......
+2021-05-02 23:29:21 I/Bot 2771589125: Logging in...
+2021-05-02 23:29:21 V/Net 2771589125: Loading BdhSession from cache file
+2021-05-02 23:29:21 V/Net 2771589125: Loading server list from cache.
+2021-05-02 23:29:21 I/Net 2771589125: Connected to server 114.221.148.13:14000
+2021-05-02 23:29:21 V/Net 2771589125: Send: wtlogin.exchange_emp
+2021-05-02 23:29:21 V/Net 2771589125: Recv: LoginPacketResponse.Success
+2021-05-02 23:29:21 V/Net 2771589125: Send: StatSvc.register
+2021-05-02 23:29:21 I/Net 2771589125: Saved account secrets to local cache for fast login.
+2021-05-02 23:29:21 V/Net 2771589125: Recv: Response(StatSvc.register)
+2021-05-02 23:29:21 V/Net 2771589125: Send: StatSvc.register
+2021-05-02 23:29:21 V/Net 2771589125: Recv: Response(StatSvc.register)
+2021-05-02 23:29:21 I/Net 2771589125: Awaiting ConfigPushSvc.PushReq.
+2021-05-02 23:29:21 I/Net 2771589125: Syncing friend message history...
+2021-05-02 23:29:21 I/Net 2771589125: Start loading stranger list...
+2021-05-02 23:29:21 I/Net 2771589125: Start loading friend list...
+2021-05-02 23:29:21 V/Net 2771589125: Send: StatSvc.GetDevLoginInfo
+2021-05-02 23:29:21 V/Net 2771589125: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)
+2021-05-02 23:29:21 I/Bot 2771589125: No OtherClient online.
+2021-05-02 23:29:21 V/Net 2771589125: Send: OidbSvc.0x496
+2021-05-02 23:29:21 V/Net 2771589125: Recv: TroopManagement.GetTroopConfig.Response(true)
+2021-05-02 23:29:21 I/Net 2771589125: Start loading group list...
+2021-05-02 23:29:21 V/Net 2771589125: Send: MessageSvc.PbGetMsg
+2021-05-02 23:29:21 D/Net 2771589125: Received unknown commandName: OnlinePush.SidTicketExpired
+2021-05-02 23:29:22 V/Net 2771589125: Send: MessageSvc.PbDeleteMsg
+2021-05-02 23:29:22 V/Net 2771589125: Send: ProfileService.Pb.ReqSystemMsgNew.Group
+2021-05-02 23:29:22 D/Net 2771589125: Received unknown commandName: MultiVideo.s2c
+2021-05-02 23:29:24 V/Net 2771589125: Recv: ConfigPushSvc.PushReq.PushReqResponse.ServerListPush
+2021-05-02 23:29:24 I/Net 2771589125: Server list updated.
+2021-05-02 23:29:24 I/Net 2771589125: Server list: 114.221.151.172:14000, 42.81.169.46:14000, 180.109.156.44:8080, 113.96.13.87:443, 42.81.170.51:80, 180.102.110.122:14000, 113.96.12.85:443, 42.81.172.147:8080, msfwifi.3g.qq.com:8080, 42.81.172.147:80.
+2021-05-02 23:29:24 V/Net 2771589125: Saving bdh session to cache
+2021-05-02 23:29:24 V/Net 2771589125: Saving server list to cache
+2021-05-02 23:29:24 V/Net 2771589125: Send: ConfigPushSvc.PushResp
+2021-05-02 23:29:24 I/Net 2771589125: ConfigPushSvc.PushReq: Server updated.
+2021-05-02 23:29:24 D/Net 2771589125: Received unknown commandName: ConfigPushSvc.PushDomain
+2021-05-02 23:29:24 V/Net 2771589125: Recv: ConfigPushSvc.PushReq.PushReqResponse.ConfigPush
+2021-05-02 23:29:24 V/Net 2771589125: Saving bdh session to cache
+2021-05-02 23:29:24 V/Net 2771589125: Send: ConfigPushSvc.PushResp
+2021-05-02 23:29:26 V/Net 2771589125: Send: OidbSvc.0x5d2_0
+2021-05-02 23:29:26 V/Net 2771589125: Recv: StrangerList.GetStrangerList.Response(result=0)
+2021-05-02 23:29:26 I/Net 2771589125: Successfully loaded stranger list: 0 in total
+2021-05-02 23:29:26 V/Net 2771589125: Send: friendlist.getFriendGroupList
+2021-05-02 23:29:27 V/Net 2771589125: Recv: FriendList.GetFriendGroupList.Response
+2021-05-02 23:29:27 V/Net 2771589125: Loading friend list: 126/126
+2021-05-02 23:29:27 I/Net 2771589125: Successfully loaded friend list: 126 in total
+2021-05-02 23:29:27 V/Net 2771589125: Send: friendlist.GetTroopListReqV2
+2021-05-02 23:29:27 V/Net 2771589125: Recv: FriendList.GetFriendGroupList.Response
+2021-05-02 23:29:27 V/Net 2771589125: Send: friendlist.GetTroopListReqV2
+2021-05-02 23:29:27 V/Net 2771589125: Recv: FriendList.GetFriendGroupList.Response
+2021-05-02 23:29:27 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:27 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:27 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:28 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:28 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:28 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:28 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:28 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:28 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:28 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:28 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:28 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:28 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:29 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:29 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:29 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:29 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:29 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:29 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:29 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:29 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:29 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:29 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:29 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:29 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 D/Net 2771589125: Received unknown commandName: OnlinePush.SidTicketExpired
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:30 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:30 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:31 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:31 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:32 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:32 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:32 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:32 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:32 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:32 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:32 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:32 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:32 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:32 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:32 D/Net 2771589125: unknown PbGetMsg type 528, data=08 23 12 32 12 30 08 85 B0 CC A9 0A 10 B2 A0 F9 CF 04 18 03 20 BD 87 BB 84 06 2A 12 E6 9D A5 E8 87 AA E5 A5 BD E5 8F 8B E6 9F A5 E6 89 BE 3A 00 42 00 4A 00 52 00
+2021-05-02 23:29:32 D/Net 2771589125: unknown PbGetMsg type 528, data=08 B3 01 12 59 08 01 12 55 08 B2 A0 F9 CF 04 10 00 1D BF C3 8E 60 22 2E E6 88 91 E4 BB AC E5 B7 B2 E7 BB 8F E6 98 AF E5 A5 BD E5 8F 8B E5 95 A6 EF BC 8C E4 B8 80 E8 B5 B7 E6 9D A5 E8 81 8A E5 A4 A9 E5 90 A7 21 2A 0C E6 B2 A1 E6 9C 89 E8 84 91 E8 A2 8B 30 00 38 00 48 B2 A0 F9 CF 04
+2021-05-02 23:29:32 D/Net 2771589125: unknown PbGetMsg type 528, data=08 23 12 04 1A 02 08 00
+2021-05-02 23:29:32 V/Bot 2771589125: Event: MemberJoinEvent.Active(member=3165438416)
+2021-05-02 23:29:32.919  INFO 21860 --- [atcher-worker-2] l.l.m.c.events.group.CoreGroupEvents     : 成员:3165438416，主动加群事件，群=872725671
+2021-05-02 23:29:33 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:33 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:33 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:33 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:33 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:33 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:33 E/Bot 2771589125: An exception was thrown under a coroutine of Bot
+net.mamoe.mirai.event.ExceptionInEventHandlerException: Exception in EventHandler
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$14$1.invoke(JvmMethodListenersInternal.kt:147)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$14$2.invokeSuspend(JvmMethodListenersInternal.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$14$1.invoke(JvmMethodListenersInternal.kt:140)
+	... 7 more
+Caused by: java.io.FileNotFoundException: D:\GitHub\Minatoaqua\temp\group\welcome\872725671\0.jpeg (系统找不到指定的路径。)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
+	at net.mamoe.mirai.utils.ExternalResource$Companion.create(ExternalResource.kt:131)
+	at net.mamoe.mirai.utils.ExternalResource$Companion.create$default(ExternalResource.kt:129)
+	at net.mamoe.mirai.utils.ExternalResource.create(ExternalResource.kt)
+	at link.linxun.minatoaqua.web.service.bot.service.BotResourceService.getImageIdGroup(BotResourceService.java:86)
+	at link.linxun.minatoaqua.web.module.bot.group.welcome.GroupWelcomeProcess.getWelcome(GroupWelcomeProcess.java:133)
+	at link.linxun.minatoaqua.web.service.bot.service.BotGroupService.welcome(BotGroupService.java:88)
+	at link.linxun.minatoaqua.web.service.bot.service.BotGroupService.memberJoinEventActive(BotGroupService.java:55)
+	at link.linxun.minatoaqua.corebot.events.group.CoreGroupEvents.memberJoinEventActive(CoreGroupEvents.java:57)
+	... 12 more
+
+2021-05-02 23:29:33 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:33 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:33 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:33 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:34 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:34 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:34 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:34 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:34 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:34 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:34 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:34 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:34 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:34 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:35 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:35 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:35 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:35 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:35 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:35 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:35 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:35 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:35 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:35 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:35 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:35 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:36 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:36 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:36 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:36 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:36 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:36 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:36 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:36 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:36 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:36 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:37 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:37 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:37 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:37 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:37 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:37 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:37 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:37 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:37 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:37 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:38 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:38 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+2021-05-02 23:29:38 V/Net 2771589125: Recv: FriendList.GetTroopMemberList.Response
+2021-05-02 23:29:38 V/Net 2771589125: Send: friendlist.GetTroopMemberListReq
+Disconnected from the target VM, address: '127.0.0.1:52534', transport: 'socket'
